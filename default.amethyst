@@ -12,13 +12,15 @@
         "command"
     ],
     "mod1": [
-        "option",
-        "shift"
+        "control",
+        "shift",
+        "command",
     ],
     "mod2": [
-        "option",
+        "control",
         "shift",
-        "control"
+        "command",
+        "option",
     ],
     "screens": 4,
     "cycle-layout": {
@@ -30,20 +32,20 @@
         "key": "space"
     },
     "select-tall-layout": {
-        "mod": "mod1",
-        "key": "a"
-    },
-    "select-wide-layout": {
-        "mod": "mod1",
+        "mod": "mod2",
         "key": "s"
     },
+    "select-floating-layout": {
+        "mod": "mod2",
+        "key": "f"
+    },
     "select-fullscreen-layout": {
-        "mod": "mod1",
-        "key": "d"
+        "mod": "mod2",
+        "key": "a"
     },
     "select-column-layout": {
-        "mod": "mod1",
-        "key": "f"
+        "mod": "mod2",
+        "key": "d"
     },
     "focus-screen-1": {
         "mod": "mod1",
@@ -79,11 +81,11 @@
     },
     "shrink-main": {
         "mod": "mod1",
-        "key": "h"
+        "key": "["
     },
     "expand-main": {
         "mod": "mod1",
-        "key": "l"
+        "key": "]"
     },
     "increase-main": {
         "mod": "mod1",
@@ -95,11 +97,11 @@
     },
     "focus-ccw": {
         "mod": "mod1",
-        "key": "j"
+        "key": "a"
     },
     "focus-cw": {
         "mod": "mod1",
-        "key": "k"
+        "key": "s"
     },
     "swap-screen-ccw": {
         "mod": "mod2",
@@ -110,12 +112,12 @@
         "key": "l"
     },
     "swap-ccw": {
-        "mod": "mod2",
-        "key": "j"
+        "mod": "mod1",
+        "key": "z"
     },
     "swap-cw": {
-        "mod": "mod2",
-        "key": "k"
+        "mod": "mod1",
+        "key": "x"
     },
     "swap-main": {
         "mod": "mod1",
@@ -175,7 +177,7 @@
     },
     "display-current-layout": {
         "mod": "mod1",
-        "key": "i"
+        "key": "o"
     },
     "reevaluate-windows": {
         "mod": "mod1",
@@ -187,7 +189,7 @@
     },
     "floating": [],
     "float-small-windows": true,
-    "mouse-follows-focus": false,
+    "mouse-follows-focus": true,
     "focus-follows-mouse": false,
     "enables-layout-hud": true,
     "enables-layout-hud-on-space-change": true,
